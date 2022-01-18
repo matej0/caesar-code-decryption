@@ -1,6 +1,6 @@
 def main():
     alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    encrypted = str(input("xd: ")).strip() ##remove spaces
+    encrypted = str(input("xd: "))
     offset = 0
     for i in range(len(alphabet)):
         decrypted = ""
