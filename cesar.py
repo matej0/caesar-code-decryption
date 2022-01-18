@@ -9,7 +9,7 @@ def main():
                 offset = alphabet.find(j)
                 decrypted += alphabet[(offset - i) % len(alphabet)]
             else:
-                decrypted += j
+                decrypted += j #should never happen, but never say never!
         print("key %d: %s" % (i, decrypted))
 
 if __name__ == "__main__":
